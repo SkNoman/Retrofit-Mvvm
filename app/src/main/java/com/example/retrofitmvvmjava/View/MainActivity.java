@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setTitle("List of users");
         setContentView(R.layout.activity_main);
-       recyclerView = findViewById(R.id.recyclerView);
-       // LinearLayoutManager layoutManager = new GridLayoutManager(this,1); //for in grid
+        recyclerView = findViewById(R.id.recyclerView);
+        // LinearLayoutManager layoutManager = new GridLayoutManager(this,1); //for in grid
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // single view recycleerView.
         //recyclerView.setLayoutManager(layoutManager);
         UserAdapter adapter = new UserAdapter(this,userModelList);
