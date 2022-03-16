@@ -3,9 +3,7 @@ package com.example.retrofitmvvmjava.Model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
-public class UserModel implements Serializable {
+public class User {
 
     @SerializedName("login")
     @Expose
@@ -205,6 +203,4 @@ public class UserModel implements Serializable {
     public void setSiteAdmin(Boolean siteAdmin) {
         this.siteAdmin = siteAdmin;
     }
-
-
 }

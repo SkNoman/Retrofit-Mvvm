@@ -19,17 +19,17 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private List<UserModel> userModelList;
+   /* private List<UserModel> userModelList;
     private UserAdapter adapter;
     MainActivityViewModel mainActivityViewModel;
-    RecyclerView recyclerView;
+    RecyclerView recyclerView;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTitle("List of users");
         setContentView(R.layout.activity_main);
-       recyclerView = findViewById(R.id.recyclerView);
-       // LinearLayoutManager layoutManager = new GridLayoutManager(this,1); //for in grid
+       /* recyclerView = findViewById(R.id.recyclerView);
+        // LinearLayoutManager layoutManager = new GridLayoutManager(this,1); //for in grid
         recyclerView.setLayoutManager(new LinearLayoutManager(this)); // single view recycleerView.
         //recyclerView.setLayoutManager(layoutManager);
         UserAdapter adapter = new UserAdapter(this,userModelList);
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        mainActivityViewModel.makeApiCall();
+        mainActivityViewModel.makeApiCall();*/
 
 
     }
